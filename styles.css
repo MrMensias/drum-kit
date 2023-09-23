@@ -36,7 +36,6 @@ button{
 }
 
 button:active, .pressed{
-    background-color: #ED8240;
     color: #D2EBE9;
     opacity: 0.7;
 }
