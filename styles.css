@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #2D132C;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+h1{
+    color: #90303D;
+    font-size: 7rem;
+    text-shadow: 2px 1px#ED8240;
+    text-align: center;
+}
+
+
+.set{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+button{
+    background-color: #FFF;
+    border: 10px solid #90303D;
+    width: 175px;
+    height: 175px;
+    font-size: 5rem ;
+    color: #ED8240;
+    border-radius: 10px;
+}
+
+button:active, .pressed{
+    background-color: #ED8240;
+    color: #D2EBE9;
+    opacity: 0.7;
+}
+
+
+
+footer{
+    color: #D2EBE9;
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+.w{
+    background-image: url(./images/kick.png);
+    background-size: cover;
+}
+
+.a{
+    background-image: url(./images/crash.png);
+    background-size: cover;
+}
+
+.s{
+    background-image: url(./images/snare.png);
+    background-size: cover;
+}
+
+.d{
+    background-image: url(./images/tom1.png);
+    background-size: cover;
+}
+
+.j{
+    background-image: url(./images/tom2.png);
+    background-size: cover;
+}
+
+.k{
+    background-image: url(./images/tom3.png);
+    background-size: cover;
+}
+
+.l{
+    background-image: url(./images/tom4.png);
+    background-size: cover;
+}
